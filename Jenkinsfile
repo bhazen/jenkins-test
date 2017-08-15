@@ -10,4 +10,8 @@ node {
   stage('last') {
     echo "this is the last stage"
   }
+
+  stage('bonus') {
+    echo "this is a bonus stage"
+  }
 }
